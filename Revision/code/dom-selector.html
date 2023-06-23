@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .circle {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        border: 1px solid black;
+        margin: 10px;
+      }
+      #circle1 {
+        background-color: red;
+      }
+      p.circle {
+        background-color: teal;
+      }
+    </style>
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div id="circle1" class="circle"></div>
+    <div id="circle2" class="circle"></div>
+    <div id="circle3" class="circle"></div>
+    <p class="circle"></p>
+
+    <script>
+      //   const element = document.getElementById("circle1");
+      //   element.style.backgroundColor = "red";
+      //   element.style.border = "20px solid yellow";
+
+      //   const element2 = document.getElementById("circle2");
+      //   element2.style.backgroundColor = "blue";
+
+      //   const elements = document.getElementsByClassName("circle");
+      //   console.log(elements);
+
+      //   const element = document.querySelector("p.circle");
+      //   console.log(element);
+
+      const elements = document.querySelectorAll(".circle");
+      console.log(elements);
+    </script>
+  </body>
+</html>

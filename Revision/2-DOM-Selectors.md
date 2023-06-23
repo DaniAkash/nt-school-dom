@@ -34,6 +34,8 @@
 document.getElementById("circle1").style.backgroundColor = "red";
 ```
 
+All web APIs available at: https://developer.mozilla.org/en-US/docs/Web/API
+
 ## Step by step walkthrough of document.getElementById
 
 This section will be explained in the class (console the selected elements)
